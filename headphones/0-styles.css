@@ -1,0 +1,105 @@
+.box {
+  position: relative;
+  width: 1400px;
+  height: 800px;
+}
+
+.box .main-part {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1400px;
+  height: 800px;
+}
+
+.box .background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1400px;
+  height: 800px;
+}
+
+.box .text {
+  position: absolute;
+  top: 372px;
+  left: 382px;
+  width: 637px;
+  height: 313px;
+}
+
+.box .lorem-ipsum-dolor-se {
+  width: 90.74%;
+  top: calc(50.00% - 156px);
+  left: 4.55%;
+  font-family: "Source Sans Pro-Bold", Helvetica;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: normal;
+  position: absolute;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0;
+}
+
+.box .text-wrapper {
+  position: absolute;
+  width: 55.73%;
+  top: calc(50.00% - 116px);
+  left: 22.14%;
+  font-family: "Source Sans Pro-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .lorem-ipsum-dolor-si {
+  width: 100%;
+  top: calc(50.00% + 52px);
+  left: 0;
+  font-family: "Source Sans Pro-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  position: absolute;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0;
+}
+
+.box .button {
+  position: absolute;
+  width: 25.43%;
+  height: 14.06%;
+  top: 31.95%;
+  left: 37.21%;
+  overflow: hidden;
+}
+
+.box .button-background {
+  position: absolute;
+  width: 101.23%;
+  height: 104.55%;
+  top: -2.27%;
+  left: 0;
+  background-color: #ff6565;
+  border-radius: 22px;
+  box-shadow: 0px 2px 20px #00000080;
+}
+
+.box .div {
+  position: absolute;
+  width: 61.73%;
+  top: calc(50.00% - 9px);
+  left: 19.14%;
+  font-family: "Source Sans Pro-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
