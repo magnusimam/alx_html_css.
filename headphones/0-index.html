@@ -1,30 +1,52 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="0-styles.css" />
-  </head>
-  <body>
-    <div class="box">
-      <div class="main-part">
-        <img class="background" src="img/background.png" />
-        <div class="text">
-          <p class="lorem-ipsum-dolor-se">Lorem ipsum dolor set amet lorem ipsum</p>
-          <p class="text-wrapper">Lorem ipsum dolor set amet lorem ipsum dolor set</p>
-          <p class="lorem-ipsum-dolor-si">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur.
-          </p>
-          <div class="button">
-            <div class="button-background"></div>
-            <div class="div">CALL TO ACTION</div>
-          </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headphones</title>
+    <link rel="stylesheet" href="0-styles.css">
+</head>
+<body>
+    <!-- Header/Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <!-- Navigation -->
+            <nav class="nav">
+                <div class="logo">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                        <polygon points="16,2 30,16 16,30 2,16" fill="#FF6565"/>
+                        <polygon points="16,8 24,16 16,24 8,16" fill="#ffffff"/>
+                        <polygon points="16,12 20,16 16,20 12,16" fill="#FF6565"/>
+                    </svg>
+                    <span>headphones</span>
+                </div>
+                
+                <!-- Mobile menu toggle -->
+                <input type="checkbox" id="menu-toggle" class="menu-toggle">
+                <label for="menu-toggle" class="menu-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                
+                <!-- Navigation links -->
+                <ul class="nav-links">
+                    <li><a href="#what-we-do">what we do</a></li>
+                    <li><a href="#our-results">our results</a></li>
+                    <li><a href="#contact-us">contact us</a></li>
+                </ul>
+            </nav>
+            
+            <!-- Hero Content -->
+            <div class="hero-content">
+                <h1>Lorem ipsum dolor set amet lorem ipsum</h1>
+                <p class="hero-subtitle">Lorem ipsum dolor set amet lorem ipsum dolor set</p>
+                <button class="cta-button">CALL TO ACTION</button>
+                <p class="hero-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p>
+            </div>
         </div>
-      </div>
-    </div>
-  </body>
+    </header>
+</body>
 </html>
